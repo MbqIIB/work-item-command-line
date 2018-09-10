@@ -2,19 +2,9 @@ WCL uses some libraries that don't ship with it to export and import.
 
 To run the the work item exporter and importer
 
-1. Download opencsv from 
-http://sourceforge.net/projects/opencsv/files/opencsv/3.7/ 
-and place the library opencsv-3.7.jar into the folder lib in the WCL folder.
-
-2. Copy the Eclipse plugins from RTC Eclipse into the lib folder
-
-Open the Eclipse Plugins folder for example jazz\client\eclipse\plugins and search for a file 
-com.ibm.team.workitem.rcp.core_*.jar 
-
-The last part of the Jar file name is a version number and can be different. 
-An Example: com.ibm.team.workitem.rcp.core_3.1.800.v20140706_1427.jar
-
-Copy this jar File into the folder lib in the WCL folder.
+Download opencsv e.g. from http://sourceforge.net/projects/opencsv/files/opencsv/3.7/ 
+Rename the jar file (e.g. opencsv-3.7.jar) to opencsv.jar and place the library into the folder 
+lib in the WCL folder. Note, tests have been performed with OpenCSF 3.7
 
 You can now use the script files to run WCL.
 

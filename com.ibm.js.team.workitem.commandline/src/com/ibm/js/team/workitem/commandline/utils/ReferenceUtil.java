@@ -11,6 +11,7 @@ import java.util.HashMap;
 
 import com.ibm.js.team.workitem.commandline.parameter.ParameterLinkIDMapper;
 import com.ibm.team.build.internal.common.links.BuildLinkTypes;
+import com.ibm.team.links.client.ILinkManager;
 import com.ibm.team.links.common.registry.IEndPointDescriptor;
 import com.ibm.team.links.common.registry.ILinkTypeRegistry;
 import com.ibm.team.workitem.common.model.WorkItemEndPoints;
